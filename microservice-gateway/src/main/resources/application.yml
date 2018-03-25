@@ -3,10 +3,15 @@ server:
 
 spring:
   application:
-    name: microservice-gateway
+    name: microservice-gateway  #建议全部小写，大小写可能会出问题
 
 eureka:
   client:
+    username: user
+    password: password
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://${eureka.client.username}:${eureka.client.password}@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true    #首选IP地址
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
 

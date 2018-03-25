@@ -24,7 +24,12 @@ logging:
 
 eureka:
   client:
+    username: user
+    password: password
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://${eureka.client.username}:${eureka.client.password}@localhost:8761/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+

@@ -1,6 +1,7 @@
 server:
   port: 8761
 
+
 eureka:
   instance:
     hostname: localhost           #hostname
@@ -10,6 +11,13 @@ eureka:
                                   #为false则表示作为服务端不注册到eureka server，为true则表示作为客户端注册到eureka server
     fetch-registry: false         #fetchRegistry,是否从eureka server获取注册信息（同步服务实例列表时）
     service-url:                  #serviceUrl
-      defaultZone: http://localhost:${server.port}/eureka/            #defaultZone
+      defaultZone: http://user:password@localhost:${server.port}/eureka/    #defaultZone
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: password
 
 
