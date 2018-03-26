@@ -18,6 +18,7 @@
     <module>microservice-eureka</module>
     <module>microservice-user</module>
     <module>microservice-movie</module>
+    <module>microservice-movie-ribbon</module>
     <module>microservice-gateway</module>
   </modules>
 

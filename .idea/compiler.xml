@@ -9,6 +9,7 @@
         <module name="microservice-eureka" />
         <module name="microservice-gateway" />
         <module name="microservice-movie" />
+        <module name="microservice-movie-ribbon" />
         <module name="microservice-user" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="microservice-eureka" target="1.8" />
       <module name="microservice-gateway" target="1.8" />
       <module name="microservice-movie" target="1.8" />
+      <module name="microservice-movie-ribbon" target="1.8" />
       <module name="microservice-spring-cloud" target="1.8" />
       <module name="microservice-user" target="1.8" />
     </bytecodeTargetLevel>

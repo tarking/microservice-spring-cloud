@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-eureka/microservice-eureka.iml" filepath="$PROJECT_DIR$/microservice-eureka/microservice-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-gateway/microservice-gateway.iml" filepath="$PROJECT_DIR$/microservice-gateway/microservice-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-movie/microservice-movie.iml" filepath="$PROJECT_DIR$/microservice-movie/microservice-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-movie-ribbon/microservice-movie-ribbon.iml" filepath="$PROJECT_DIR$/microservice-movie-ribbon/microservice-movie-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-user/microservice-user.iml" filepath="$PROJECT_DIR$/microservice-user/microservice-user.iml" />
     </modules>
